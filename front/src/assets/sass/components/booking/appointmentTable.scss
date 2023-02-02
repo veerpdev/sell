@@ -1,0 +1,24 @@
+table{
+    .appointment-table-header tr:first-child th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+    .appointment-table-header {
+        border-radius: 10px 10px 0 0;
+        background-color: #3e7ba0;
+      }
+    .appointment-table-body{
+        td{
+            border: 0.5px dashed gray;
+        }
+        tr:hover {
+            background: rgb(87, 105, 139);
+        }
+    }    
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+    }
+}
+  
+  

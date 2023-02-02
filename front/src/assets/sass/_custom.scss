@@ -1,0 +1,41 @@
+.pac-container {
+  z-index: 10000 !important;
+}
+
+.pac-target-input {
+  -webkit-appearance: none;
+  background-color: var(--el-input-bg-color, var(--el-color-white));
+  background-image: none;
+  border-radius: var(--el-input-border-radius, var(--el-border-radius-base));
+  border: var(--el-input-border, var(--el-border-base));
+  box-sizing: border-box;
+  color: var(--el-input-text-color, var(--el-text-color-regular));
+  display: inline-block;
+  font-size: inherit;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 15px;
+  transition: var(--el-transition-border);
+  width: 100%;
+}
+
+.hrm-filter-container {
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+
+  .filter-selector {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 16px;
+    }
+  }
+
+}
